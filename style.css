@@ -72,3 +72,18 @@ footer {
   font-size: 0.9em;
   color: #888;
 }
+
+@media screen and (max-width: 600 px) {
+  nav button {
+    display: block;
+    width: 80%;
+    margin: 0.5em auto;
+  }
+
+  .tab-content {
+    margin: 1em, 1em;
+    padding: 1em;
+  }
+}
+
+
