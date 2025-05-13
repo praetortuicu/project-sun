@@ -86,4 +86,16 @@ footer {
   }
 }
 
+.svg-img {
+  width: 80%;
+  max-width: 300px;
+  display: block;
+  margin: 1em auto;
+}
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
