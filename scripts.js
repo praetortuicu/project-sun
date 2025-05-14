@@ -27,6 +27,7 @@ function loadPictures() {
 
   const totalImages = 71;
   for (let i = 1; i <= totalImages; i++) {
+    if (i == 68 || i == 69) { continue; }
     const img = document.createElement('img');
     img.src = `./assets/poze/image${i}.jpeg`;
     img.alt = `Image ${i}`;
