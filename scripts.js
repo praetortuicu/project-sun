@@ -25,9 +25,9 @@ function loadPictures() {
   const gallery = document.createElement('div');
   gallery.className = 'gallery';
 
-  const totalImages = 71;
+  const totalImages = 99;
   for (let i = 1; i <= totalImages; i++) {
-    if (i == 68 || i == 69) { continue; }
+    if (i == 68 || i == 69 || i == 66) { continue; }
     const img = document.createElement('img');
     img.src = `./assets/poze/image${i}.jpeg`;
     img.alt = `Image ${i}`;
